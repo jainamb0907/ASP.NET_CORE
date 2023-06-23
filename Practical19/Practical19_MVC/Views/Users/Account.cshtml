@@ -1,0 +1,42 @@
+﻿@model UserViewModel
+
+@{
+    ViewData["Title"] = "My Account";
+}
+
+<h1>My Account</h1>
+<hr />
+<div>
+    <dl class="row flex-column">
+        <dt class="col-sm-2">
+            <label asp-for="FirstName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="LastName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Email"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Email"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Roles"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Roles)
+        </dd>
+    </dl>
+</div>

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<UserViewModel>
+@{
+    ViewBag.Title = "Manage User Roles";
+}
+<div class="container-fluid">
+    <h1>Manage User Roles</h1>
+    <div class="row g-3">
+        @if (Model is null || Model.Count() == 0)
+        {
+            @*var error = new ErrorViewModel { ErrorMessage = "No users exists" };
+        <partial name="_NotFound" model="error" />*@
+        }
+        else
+        {
+            @foreach (var user in Model)
+            {
+                <partial name="Partial/_User" model="user" />
+            }
+        }
+    </div>
+</div>
