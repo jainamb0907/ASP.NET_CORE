@@ -1,0 +1,97 @@
+22-Jun-2023 17:55:35.994 +05:30 [INF] HTTP GET / responded 200 in 157.1799 ms
+22-Jun-2023 17:55:36.044 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 6.4689 ms
+22-Jun-2023 17:55:36.069 +05:30 [INF] HTTP GET /js/site.js responded 200 in 30.2938 ms
+22-Jun-2023 17:55:36.069 +05:30 [INF] HTTP GET /css/site.css responded 200 in 31.2968 ms
+22-Jun-2023 17:55:36.082 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 44.4172 ms
+22-Jun-2023 17:55:36.084 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 45.7192 ms
+22-Jun-2023 17:55:36.109 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 71.3886 ms
+22-Jun-2023 17:55:36.156 +05:30 [INF] HTTP GET /favicon.ico responded 200 in 4.5112 ms
+22-Jun-2023 17:55:44.573 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.6769 ms
+22-Jun-2023 17:55:44.576 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 963.3444 ms
+22-Jun-2023 17:55:44.577 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 3.8697 ms
+22-Jun-2023 17:55:44.611 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 38.7160 ms
+22-Jun-2023 17:56:09.479 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 36.3759 ms
+22-Jun-2023 17:56:09.483 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4890 ms
+22-Jun-2023 17:56:13.973 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 6.9167 ms
+22-Jun-2023 17:56:13.978 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3740 ms
+22-Jun-2023 17:56:15.026 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 5.3493 ms
+22-Jun-2023 17:56:15.032 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3214 ms
+22-Jun-2023 17:56:15.761 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 3.3072 ms
+22-Jun-2023 17:56:15.767 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4463 ms
+22-Jun-2023 17:56:16.095 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 3.3433 ms
+22-Jun-2023 17:56:16.102 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2936 ms
+22-Jun-2023 17:56:16.289 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 2.7453 ms
+22-Jun-2023 17:56:16.297 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.5283 ms
+22-Jun-2023 17:56:16.480 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 2.5483 ms
+22-Jun-2023 17:56:16.495 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4973 ms
+22-Jun-2023 17:56:16.664 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 3.2732 ms
+22-Jun-2023 17:56:16.672 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2320 ms
+22-Jun-2023 17:56:16.877 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 6.5799 ms
+22-Jun-2023 17:56:16.885 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3316 ms
+22-Jun-2023 17:56:17.079 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 3.1410 ms
+22-Jun-2023 17:56:17.089 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2378 ms
+22-Jun-2023 17:56:20.196 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 66.7944 ms
+22-Jun-2023 17:56:20.203 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2243 ms
+22-Jun-2023 17:56:20.203 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.4695 ms
+22-Jun-2023 17:56:23.579 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 24.1527 ms
+22-Jun-2023 17:56:23.585 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3293 ms
+22-Jun-2023 17:56:34.857 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 3.8134 ms
+22-Jun-2023 17:56:34.867 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.8415 ms
+22-Jun-2023 17:57:19.111 +05:30 [INF] HTTP GET / responded 200 in 135.5573 ms
+22-Jun-2023 17:57:19.129 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.7650 ms
+22-Jun-2023 17:57:52.075 +05:30 [INF] HTTP GET / responded 200 in 122.9913 ms
+22-Jun-2023 17:57:52.092 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.8133 ms
+22-Jun-2023 17:57:56.823 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.5890 ms
+22-Jun-2023 17:57:56.826 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 820.3344 ms
+22-Jun-2023 17:58:08.139 +05:30 [INF] HTTP POST /Student/AddStudent responded 302 in 197.5551 ms
+22-Jun-2023 17:58:08.178 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 35.3054 ms
+22-Jun-2023 17:58:08.186 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.8994 ms
+22-Jun-2023 17:58:08.186 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.5813 ms
+22-Jun-2023 17:59:40.821 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 9.0153 ms
+22-Jun-2023 17:59:40.827 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.1244 ms
+22-Jun-2023 17:59:40.827 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3602 ms
+22-Jun-2023 17:59:48.994 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 4.8931 ms
+22-Jun-2023 17:59:49.003 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2661 ms
+22-Jun-2023 17:59:49.008 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 3.8357 ms
+22-Jun-2023 17:59:51.887 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 5.2751 ms
+22-Jun-2023 17:59:51.896 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3301 ms
+22-Jun-2023 17:59:51.897 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.5505 ms
+22-Jun-2023 17:59:52.445 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 4.3182 ms
+22-Jun-2023 17:59:52.455 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3312 ms
+22-Jun-2023 17:59:52.456 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.1464 ms
+22-Jun-2023 17:59:52.605 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 4.5610 ms
+22-Jun-2023 17:59:52.611 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4284 ms
+22-Jun-2023 17:59:52.612 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.4213 ms
+22-Jun-2023 17:59:52.777 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 5.8220 ms
+22-Jun-2023 17:59:52.784 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4065 ms
+22-Jun-2023 17:59:52.784 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.7040 ms
+22-Jun-2023 17:59:52.933 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 4.4606 ms
+22-Jun-2023 17:59:52.953 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2874 ms
+22-Jun-2023 17:59:52.959 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.4122 ms
+22-Jun-2023 17:59:53.071 +05:30 [INF] HTTP GET /Student/GetAllStudents/DeleteStudent responded 200 in 4.8032 ms
+22-Jun-2023 17:59:53.084 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2975 ms
+22-Jun-2023 17:59:53.088 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 2.3280 ms
+22-Jun-2023 18:00:00.256 +05:30 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at Practical20.Repository.GenericRepository`1.Delete(T entity) in C:\Users\jainam\source\repos\Practical20\Practical20\Repository\GenericRepository.cs:line 34
+   at Practical20.Services.StudentService.DeleteStudent(Students students) in C:\Users\jainam\source\repos\Practical20\Practical20\Services\StudentService.cs:line 41
+   at Practical20.Controllers.StudentController.DeleteStudent(Int32 id) in C:\Users\jainam\source\repos\Practical20\Practical20\Controllers\StudentController.cs:line 62
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jainam\source\repos\Practical20\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 18:00:00.339 +05:30 [ERR] HTTP GET /Student/DeleteStudent responded 500 in 459.6993 ms
+22-Jun-2023 18:00:17.806 +05:30 [INF] HTTP GET /Student/AddStudent/1 responded 200 in 11.8634 ms
+22-Jun-2023 18:00:17.809 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1724 ms
