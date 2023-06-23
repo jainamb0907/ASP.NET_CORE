@@ -1,0 +1,60 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Details of a user";
+}
+
+<a class="btn btn-outline-dark mb-1" asp-action="Index"><i class="bi bi-arrow-left me-2"></i>Back</a>
+<h1>Details of a User</h1>
+<hr />
+<div>
+    <dl class="row flex-column">
+        <dt class="col-sm-2">
+            <label asp-for="FirstName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="LastName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="UserName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Email"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+    <div class="card mt-3">
+        <div class="card-header">
+            <h3>User Claims</h3>
+        </div>
+        <div class="card-body">
+            @if (Model.Claims is not null && Model.Claims.Count() > 0)
+            {
+                foreach (var claim in Model.Claims)
+                {
+                    <h5 class="card-title">@claim</h5>
+                }
+            }
+            else
+            {
+                <h5 class="card-title">None at the moment</h5>
+            }
+        </div>
+        <div class="card-footer">
+            <a asp-action="Claims" asp-controller="Claims" asp-route-id="@Model.Id" style="width:auto" class="btn btn-outline-dark">
+                Manage Claims
+            </a>
+        </div>
+    </div>
+</div>

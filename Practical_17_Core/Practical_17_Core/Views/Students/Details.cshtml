@@ -1,0 +1,56 @@
+﻿@model Student
+@inject SignInManager<User> _signInManager
+@{
+    ViewData["Title"] = "Details of a student";
+}
+
+<a class="btn btn-outline-success mb-1" asp-action="Index"><i class="bi bi-arrow-left me-2"></i>Back</a>
+<h1>Details of a student</h1>
+<hr />
+<div>
+    <dl class="row flex-column">
+        <dt class="col-sm-2">
+            <label asp-for="FirstName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="LastName"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Email"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="MobileNumber"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MobileNumber)
+        </dd>
+        <dt class="col-sm-2">
+            <label asp-for="Address"></label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        @if (_signInManager.IsSignedIn(User))
+        {
+            @if (User.IsInRole("Admin"))
+            {
+                <dt class="col-sm-2">
+                    <label>Actions</label>
+                </dt>
+                <dd class="col-sm-10">
+                    <a class="btn btn-outline-dark my-3" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                    <a class="btn btn-outline-danger my-3" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+                </dd>
+            }
+        }
+    </dl>
+</div>

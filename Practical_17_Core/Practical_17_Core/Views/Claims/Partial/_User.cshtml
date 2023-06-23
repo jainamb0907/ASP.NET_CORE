@@ -1,0 +1,10 @@
+﻿@model User
+<div class="col-auto align-items-stretch">
+    <div class="card" style="max-width:25rem; height:100%">
+        <div class="card-body">
+            <h3 class="card-title">@Model.FirstName @Model.LastName</h3>
+            <h6 class="card-title"><i class="bi bi-envelope me-1"></i> @Model.Email</h6>
+            <a asp-action="Details" asp-controller="Claims" asp-route-id="@Model.Id" class="btn btn-outline-dark btn-sm">View </a>
+        </div>
+    </div>
+</div>

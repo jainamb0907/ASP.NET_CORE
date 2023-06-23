@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Student>
+@inject SignInManager<User> _signInManager
+
+@{
+    ViewData["Title"] = "Students";
+}
+<div class="container-fluid">
+    <h1>Students</h1>
+    @if (_signInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn btn-dark my-3" asp-action="Create">Create a new student</a>
+        }
+    }
+    <div class="row g-3">
+        @if (Model is null || Model.Count() == 0)
+        {
+            var error = new ErrorViewModel { ErrorMessage = "No students exists" };
+            <partial name="_NotFound" model="error" />
+        }
+        else
+        {
+            @foreach (var student in Model)
+            {
+                <partial name="Partial/_Student" model="student" />
+            }
+        }
+    </div>
+</div>
