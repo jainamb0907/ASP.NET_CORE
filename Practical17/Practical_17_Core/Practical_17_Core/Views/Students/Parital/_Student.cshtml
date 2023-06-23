@@ -1,0 +1,12 @@
+﻿@model Student
+<div class="col-auto align-items-stretch">
+    <div class="card p-2" style="max-width:25rem; height:100%">
+        <div class="card-body">
+            <h3 class="card-title">@Model.FirstName @Model.LastName</h3>
+            <h6 class="card-subtitle m-1"><i class="bi bi-envelope me-1"></i> @Model.Email</h6>
+            <h6 class="card-subtitle m-1"><i class="bi bi-telephone me-1"></i> @Model.MobileNumber</h6>
+            <p class="card-text m-1"><i class="bi bi-geo-alt me-1"></i> @Model.Address</p>
+            <a asp-action="Details" asp-controller="Students" asp-route-id="@Model.Id" class="btn btn-outline-dark btn-sm m-1">View Student</a>
+        </div>
+    </div>
+</div>
